@@ -1,0 +1,36 @@
+INICIAR UM REPOSITORIO VAZIO:
+* git ini
+LISTA PASTA OCULTAS:
+* ls -a
+CONFIGURARAÇÃO INICIAL
+ O GIT COM REPOSITORIOS GLOBAL:
+* git config --global user.email "geovane.n7@gmail.com
+
+ArQUIVO MARKDOWN:
+*arquivos do tipo HTML
+ 
+--***----**---
+git add *
+git comit -m " commit inicial"
+
+VRIFICAR AS CONFIG SETADAS NO GIT
+git config -- list
+
+ALTERAR AS CONFIG SETADAS NO GIT
+git config --global --unset [proriedade a ser alterada] ex user.email
+
+PUXAR ULTIMA VERSÃO DO CONTEUDO DO GITHUB (deve ser feito antes de enviar
+							 atualizações para o github quando 
+							 ja existe conteudo no repositorio)
+git pull origin master
+
+ENVIAR CONTEUDO PARA UM REPOSITORIO NO GITHUB
+git remote origin [url do repositorio]ex: https://github.com/geovane8/livros-receitas.git
+git push origin master
+
+LISTAR A LISTA DE REPOSITORIO CADASTRADA NO GIT
+git remote -v 
+
+
+CLONAR REPOSITORIOS PARA MAQUINA LOCAL
+git clone [url do repositorio] ex:https://github.com/python/cpython.git
